@@ -10,7 +10,7 @@
 .content {
     padding: 0 18px;
     width: 100%;
-    max-width: 1024px;
+    max-width: 770px;
     display: flex;
     align-items: center;
 }
@@ -27,11 +27,11 @@
 	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2); /* direita baixo fade tudo */
 }
 .topLeft{
-	margin-left: 60px;
+	margin-left: 20px;
 }
 .topRight{
     padding-top: 32px;
-    padding-left: 90px;
+    padding-left: 30px;
 }
 .topName{
 	margin:0 auto;
