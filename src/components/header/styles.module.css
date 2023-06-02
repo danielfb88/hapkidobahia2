@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    height: 240px;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 0 18px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.top{
+	background-image: linear-gradient(to bottom, #000033, #000066 70%);
+	height: 217px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 10px; /* bordas arredondadas */
+	border:1px solid #FFFFFF;
+	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2); /* direita baixo fade tudo */
+}
+.topLeft{
+	margin-left: 60px;
+}
+.topRight{
+    padding-top: 32px;
+    padding-left: 90px;
+}
+.topName{
+	margin:0 auto;
+	font: 27px "Times New Roman", Times, serif, Arial, Helvetica, sans-serif, Verdana, Tahoma;
+	font-weight:normal;
+	color:#FFFFFF;
+}
+.topBumMoo{
+	width:421px;
+	height:124px;
+	margin-top:20px;
+	margin-left:15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1f1;
+    width: 100%;
+}
