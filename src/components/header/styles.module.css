@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 240px;
-    background-color: #0f0f0f;
+    /* background-color: #0f0f0f; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,8 +22,9 @@
     align-items: center;
     width: 100%;
 
-    border-radius: 10px; /* bordas arredondadas */
+    border-radius: 10px 10px 0px 0px; /* bordas arredondadas */
 	border:1px solid #FFFFFF;
+    border-bottom: 0px;
 	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2); /* direita baixo fade tudo */
 }
 .topLeft{

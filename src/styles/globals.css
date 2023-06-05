@@ -9,3 +9,7 @@
 html {
   font-family: "Roboto" ,sans-serif;
 }
+
+body {
+	background: #003 url('../../public/assets/bg.jpg') fixed;
+}
