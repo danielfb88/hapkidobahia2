@@ -9,18 +9,16 @@ export function Header() {
         <header className={styles.header}>
             <section className={styles.content}>
                 <div className={styles.top}>
-                    <a href="index.html">
-                        <div className={styles.topLeft}>
-                            <Link href="/">
-                                <Image
-                                    className={styles.fbh}
-                                    alt="Federação Baiana de Hapkido"
-                                    src={fbhImg}
-                                    priority
-                                />
-                            </Link>
-                        </div>
-                    </a>
+                    <div className={styles.topLeft}>
+                        <Link href="/">
+                            <Image
+                                className={styles.fbh}
+                                alt="Federação Baiana de Hapkido"
+                                src={fbhImg}
+                                priority
+                            />
+                        </Link>
+                    </div>
                     <div className={styles.topRight}>            
                         <div className={styles.topName}>FEDERAÇÃO BAIANA DE HAPKIDO</div>
                         <div className={styles.topBumMoo}>
