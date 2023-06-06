@@ -31,24 +31,14 @@ export function Header() {
                         </div>
                     </div>
                 </div>
-                {/* <nav className={styles.nav}>
-                    <Link href="/">
-                        <Image
-                            className={styles.fbh}
-                            alt="Logo Tarefas+"
-                            src={fbhImg}
-                            priority
-                        />
-                    </Link>
-                    <div>
-                        <Image
-                            className={styles.fbh}
-                            alt="Bum Moo"
-                            src={bummooImg}
-                            priority
-                        />
-                    </div>
-                </nav> */}
+                <div className={styles.menu}>
+                    <nav className={styles.nav}>
+                        <Link href="/"><span className={styles.itemMenu}>Hapkido</span></Link>
+                        <Link href="/"><span className={styles.itemMenu}>Fotos</span></Link>
+                        <Link href="/"><span className={styles.itemMenu}>Vídeos</span></Link>
+                        <Link href="/"><span className={styles.itemMenu}>Onde Treinar</span></Link>
+                    </nav>
+                </div>
             </section>
         </header>
     )
