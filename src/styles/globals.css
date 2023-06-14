@@ -13,7 +13,3 @@ html {
 body {
 	background: #003 url('../../public/assets/bg.jpg') fixed;
 }
-
-.canvas {
-  max-width: 770px;
-}
