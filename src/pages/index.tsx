@@ -22,18 +22,8 @@ export default function Home() {
             priority
           />
         </div>
-
-        <h1 className={styles.title}>Federação Baiana de Hapkido</h1>
-
-        <div className={styles.infoContent}>
-          <section className={styles.box}>
-            <span>+12 posts</span>
-          </section>
-          <section className={styles.box}>
-            <span>+19 posts</span>
-          </section>
-        </div>
       </main>
+      
     </div>
   )
 }

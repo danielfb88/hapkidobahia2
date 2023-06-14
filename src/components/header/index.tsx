@@ -12,7 +12,7 @@ export function Header() {
                     <div className={styles.topLeft}>
                         <Link href="/">
                             <Image
-                                className={styles.fbh}
+                                className={styles.fbhImg}
                                 alt="Federação Baiana de Hapkido"
                                 src={fbhImg}
                                 priority
@@ -23,7 +23,7 @@ export function Header() {
                         <div className={styles.topName}>FEDERAÇÃO BAIANA DE HAPKIDO</div>
                         <div className={styles.topBumMoo}>
                             <Image
-                                className={styles.fbh}
+                                className={styles.bummooImg}
                                 alt="Bum Moo"
                                 src={bummooImg}
                                 priority
