@@ -1,26 +1,25 @@
 .footer {
 	width: 100%;
-    height: 181px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .content {
-    padding: 0 18px;
     width: 100%;
-    max-width: 770px;
+    max-width: 772px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.bottom{
-	background-image: linear-gradient(to bottom, #000033, #000066 70%);
-	height: 217px;
-    display: flex;
-    align-items: center;
+.bottom {
+	background-image: linear-gradient(to top, #000033, #000066 70%);
     width: 100%;
+	height:181px;	
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 0px 0px 10px 10px; /* bordas arredondadas */
 	border:1px solid #FFFFFF;
@@ -28,28 +27,24 @@
 	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2);
 }
 
-.leftFooter{
-	width:109px;
-	height:109px;
-	float:left;
-	margin-top:30px;
-	margin-left:60px;
+.footerLeft {
+    margin: 0;
 }
-.rightFooter{	
-	width:109px;
-	height:109px;
-	margin-top:30px;
-	margin-right:60px;
-	float:right;	
+
+.footerCenter {	
+	flex-direction: column;
+	margin: 0 70px;
 }
-.centerFooter{	
-	margin-left:100px;
-	float:left;			
+
+.footerRight {	
+	margin: 0;
 }
-.followFacebook{
-	margin-top:30px;
+
+.followFacebook {
+	margin-bottom:30px;
 }
-.rights{
+
+.rights {
 	margin-top:20px;
 	font-size: 10px;	
 	font-weight:normal;

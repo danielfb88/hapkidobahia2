@@ -10,7 +10,7 @@ export function Footer() {
         <div className={styles.footer}>
             <section className={styles.content}>
                 <div className={styles.bottom}>
-                    <div className="leftFooter">
+                    <div className={styles.footerLeft}>
                         <Link 
                             href="http://www.cbhkd.com.br/" 
                             target="_blank">
@@ -24,8 +24,8 @@ export function Footer() {
                         </Link>
                     </div>
                     
-                    <div className="centerFooter">                    
-                        <div className="followFacebook">
+                    <div className={styles.footerCenter}>                    
+                        <div className={styles.followFacebook}>
                             <Link 
                                 href="http://www.facebook.com/Federa%C3%A7%C3%A3o-Baiana-de-Hapkido-553157264771529" 
                                 target="_blank">
@@ -38,13 +38,13 @@ export function Footer() {
                                     />
                             </Link>
                         </div>                   
-                        <div className="rights">
+                        <div className={styles.rights}>
                             Copyright © 2016 Federação Baiana de Hapkido<br />
                             Todos os direitos reservados                         
                         </div>
                     </div>                
                     
-                    <div className="rightFooter">
+                    <div className={styles.footerRight}>
                         <Link 
                             href="http://www.facebook.com/BumMooKwanHapkido/" 
                             target="_blank">
