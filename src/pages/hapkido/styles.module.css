@@ -40,48 +40,16 @@
 	line-height:30px;
 }
 
-.imageGroup1 {
+.imageGroup {
 	width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
 }
 
-.imageGroup1 .hkdPic1 {
+.imageGroup .hkdPic {
     object-fit: contain;
     width: auto;
     height: auto;
     margin: 30px;
-}
-
-.imageGroup1 .hkdPic2 {
-    object-fit: contain;
-    width: auto;
-    height: auto;
-    margin: 30px;
-}
-
-.itemLeft .fbhImg {
-    object-fit: contain;
-    width: auto;
-    height: auto;
-}
-
-.itemRight {
-    padding-top: 32px;
-}
-
-.itemRight .fbhText{
-	margin:0 auto;
-	font: 27px "Times New Roman", Times, serif, Arial, Helvetica, sans-serif, Verdana, Tahoma;
-	font-weight:normal;
-	color:#FFFFFF;
-}
-
-.itemRight .bummooImg {
-    object-fit: contain;
-    width: auto;
-    height: auto;
-    margin-top:20px;
-	margin-left:15px;
 }
