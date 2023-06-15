@@ -12,8 +12,6 @@ import hkdPic9 from '../../../public/assets/hkd-pic9.jpg'
 import styles from './styles.module.css'
 import Image from 'next/image'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Hapkido() {
   return (
     <div className={styles.container}>
@@ -29,13 +27,13 @@ export default function Hapkido() {
 
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Grão Mestre Yun Sik Kim e Mestre Xavier"
                 src={hkdPic1}
                 priority
             />
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Mestre Xavier"
                 src={hkdPic2}
                 priority
@@ -52,7 +50,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido para crianças"
                 src={hkdPic3}
                 priority
@@ -64,7 +62,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido para crianças"
                 src={hkdPic4}
                 priority
@@ -78,7 +76,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido para mulheres"
                 src={hkdPic5}
                 priority
@@ -89,7 +87,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido para mulheres"
                 src={hkdPic6}
                 priority
@@ -102,7 +100,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido e respiração"
                 src={hkdPic7}
                 priority
@@ -113,7 +111,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido e respiração"
                 src={hkdPic8}
                 priority
@@ -126,7 +124,7 @@ export default function Hapkido() {
           
           <div className={styles.imageGroup}>
             <Image
-                className={styles.hkdPic}
+                className={styles.pic}
                 alt="Hapkido, disciplina e respeito"
                 src={hkdPic9}
                 priority
