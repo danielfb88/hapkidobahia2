@@ -11,3 +11,19 @@ html {
 body {
 	background: #003 url('../../public/assets/bg.jpg') fixed;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;  
+}
+
+td, th {
+  border: 1px solid #A2B3C4;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
+
+tr:nth-child(even) {
+background-color: #d1d9e2;    
+}
