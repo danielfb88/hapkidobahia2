@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #4C4C66;
+    width: 100%;
+    max-width: 772px;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+    border-radius: 0px; /* bordas arredondadas */
+	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2); /* direita baixo fade tudo */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav :link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 30px;
+}
+
+.nav :link:hover {
+    background-color: #000066;
+    color: #FFFFFF;
+}
+
+.itemMenu {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
