@@ -33,7 +33,7 @@ export function Header() {
                 </div>
                 <div className={styles.menu}>
                     <nav className={styles.nav}>
-                        <Link href="/"><span className={styles.itemMenu}>Hapkido</span></Link>
+                        <Link href="/hapkido"><span className={styles.itemMenu}>Hapkido</span></Link>
                         <Link href="/"><span className={styles.itemMenu}>Fotos</span></Link>
                         <Link href="/"><span className={styles.itemMenu}>Vídeos</span></Link>
                         <Link href="/"><span className={styles.itemMenu}>Onde Treinar</span></Link>

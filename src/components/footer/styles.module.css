@@ -1,4 +1,4 @@
-.footer {
+.container {
 	width: 100%;
     display: flex;
     align-items: center;
@@ -6,45 +6,38 @@
 }
 
 .content {
+	background-image: linear-gradient(to top, #000033, #000066 90%);
+	
     width: 100%;
     max-width: 772px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.bottom {
-	background-image: linear-gradient(to top, #000033, #000066 70%);
-    width: 100%;
 	height:181px;	
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+	justify-content: center;
+    display: flex;
 
-    border-radius: 0px 0px 10px 10px; /* bordas arredondadas */
+	border-radius: 0px 0px 10px 10px; /* bordas arredondadas */
 	border:1px solid #FFFFFF;
     border-top: 0px;
 	box-shadow: 5px 5px 16px 0 rgba(0,0,0,2);
 }
 
-.footerLeft {
+.itemLeft {
     margin: 0;
 }
 
-.footerCenter {	
+.itemLeft .cbhImg {
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
+
+.itemCenter {	
 	flex-direction: column;
 	margin: 0 70px;
 }
 
-.footerRight {	
-	margin: 0;
-}
-
-.followFacebook {
-	margin-bottom:30px;
-}
-
-.rights {
+.itemCenter .rights {
 	margin-top:20px;
 	font-size: 10px;	
 	font-weight:normal;
@@ -52,17 +45,23 @@
 	line-height:10px;
 	text-align:center;
 }
-.cbhImg {
+
+.itemCenter .facebookImg {
     object-fit: contain;
     width: auto;
     height: auto;
 }
-.facebookImg {
-    object-fit: contain;
-    width: auto;
-    height: auto;
+
+.itemRight {	
+	margin: 0;
 }
-.wbmhfImg {
+
+.itemRight .followFacebook {
+	margin-bottom:30px;
+}
+
+
+.itemRight .wbmhfImg {
     object-fit: contain;
     width: auto;
     height: auto;
