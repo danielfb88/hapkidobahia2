@@ -19,7 +19,7 @@ export default function Managers() {
       
       <main className={styles.content}>
         <div className={styles.title}>Quadro de Dirigentes da Federação Baiana de Hapkido</div>
-          <div className={styles.containerPics}>
+          <div className={styles.picsBox}>
             <div className={styles.picsRow}>
               <div className={styles.managerBox}>
                 <div>

@@ -29,29 +29,29 @@
 	margin-bottom: 20px;
 }
 
-.containerPics {
+.picsBox {
 	display: flex;
     flex-direction: column;
 }
 
-.containerPics .picsRow {
+.picsRow {
 	display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.containerPics .picsRow .managerBox {
+.managerBox {
 	margin:15px 15px 15px 15px;
 	text-align: center;
 	float:left;
 }
 
-.containerPics .picsRow .managerBox .managerPic {
+.managerPic {
 	border: 1px solid #ccc;
 	padding: 5px;	
 }
 
-.containerPics .picsRow .managerBox .managerTitle {
+.managerTitle {
 	margin-top: 5px;
 	line-height:20px;
 }

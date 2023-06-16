@@ -29,9 +29,9 @@ export default function Managers() {
           <div className={styles.associationBox}>
             <div className={styles.associationName}>Centro de Treinamento e Estudo do Hapkido</div>
 
-            <div className={styles.teacherPic}>     
+            <div className={styles.teacherBox}>     
               <Image
-                  className={styles.fbhImg}
+                  className={styles.teacherPic}
                   alt="Mestre Luiz Cláudio Xavier"
                   src={dojangCtehTeachPic}
                   priority
