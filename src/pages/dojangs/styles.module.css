@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+    max-width: 772px;
+	background:#F1F1F7;	
+	text-align:left;
+	padding:20px 30px 30px 30px;
+	font-size: 15px;
+	font-weight:normal;
+	color: #006;
+}
+
+.content .title {
+	padding: 5px;
+	background-color: #3F5D7C;
+	font-weight:bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align:center;
+	text-transform:none;
+	text-decoration:none;
+	margin-bottom: 20px;
+}
+
+.associationBox{
+	margin-bottom:50px;
+	border:2px solid #333;
+	padding: 5px;
+}
+.associationInfoBox{
+	margin:5px 0 0;
+	width:490px;
+	float:right;
+	border: 1px solid #ccc;
+}
+.associationAddressBox{
+	text-align:left;
+	margin:40px 20px 0;
+	width:200px;
+	float:left;
+	font-size: 15px;
+	font-weight:normal;
+	line-height:20px;
+	color: #006;
+}
+.associationSymbolBox{
+	float:right;
+	margin:20px;
+}
+.associationMapBox{
+	margin:5px auto;
+	border: 1px solid #ccc;
+	width:450px;
+	height:300px;
+}
+.teacherPic{
+	width:199px;
+	height: 634px;
+	float:left;
+	margin:5px auto;
+	border: 1px solid #ccc;
+}
+.associationName{
+	background:#333;	
+	color:#FFF;
+	font-size: 15px;
+	font-weight:600;	
+	text-align:center;
+	padding:5px;
+}
+.associationTeacherName{
+	font-size: 15px;
+	font-weight:normal;
+	line-height:30px;
+	color: #006;
+}

@@ -9,7 +9,7 @@ export function HeaderNav() {
                     <Link href="/hapkido"><span className={styles.itemMenu}>Hapkido</span></Link>
                     <Link href="/"><span className={styles.itemMenu}>Fotos</span></Link>
                     <Link href="/"><span className={styles.itemMenu}>Vídeos</span></Link>
-                    <Link href="/"><span className={styles.itemMenu}>Onde Treinar</span></Link>
+                    <Link href="/dojangs"><span className={styles.itemMenu}>Onde Treinar</span></Link>
                 </nav>
             </section>
         </div>
