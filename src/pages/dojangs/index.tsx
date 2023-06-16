@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import facebookIcon from '../../../public/assets/facebook-icon.png'
+import instagramIcon from '../../../public/assets/instagram-icon.png'
+
 import dojangAbhPic from '../../../public/assets/dojang-abh.png'
 import dojangCihPic from '../../../public/assets/dojang-cih.png'
 import dojangCtehPic from '../../../public/assets/dojang-cteh.png'
@@ -15,6 +18,7 @@ import dojangMhTeachPic from '../../../public/assets/dojang-mh-teach.jpg'
 
 import styles from './styles.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Managers() {
   return (
@@ -49,7 +53,7 @@ export default function Managers() {
                     </table>
                     <br />
 
-                    {/* Faixas-pretas:<br />
+                    Faixas-pretas:<br />
 
                     <table width="230px">
                         <tr>
@@ -90,15 +94,31 @@ export default function Managers() {
                     Tel: 55 071 98896-9731<br /><br />
 
                     Segundas, quartas e sextas às 19:00<br />
-                    Sábados às 10:00 <br /><br /> */}
+                    Sábados às 10:00 <br /><br />
 
-                    {/* <a href="http://www.facebook.com/pages/Centro-De-Treinamento-E-Estudo-Do-Hapkido/587294861438688" target="_blank">
-                        <img src="resource/img/facebook-icon.png" alt="Centro de Treinamento e Estudo do Hapkido" title="Centro de Treinamento e Estudo do Hapkido" />    
-                    </a>
+                    <Link 
+                        href="http://www.facebook.com/pages/Centro-De-Treinamento-E-Estudo-Do-Hapkido/587294861438688" 
+                        target="_blank">
+                            <Image 
+                                src={facebookIcon} 
+                                className={styles.icons}
+                                alt="Centro de Treinamento e Estudo do Hapkido" 
+                                title="Centro de Treinamento e Estudo do Hapkido" 
+                                priority
+                            />
+                    </Link>
 
-                    <a href="https://www.instagram.com/mestrexavier/" target="_blank">
-                        <img src="resource/img/instagram-icon.png" alt="Centro de Treinamento e Estudo do Hapkido" title="Centro de Treinamento e Estudo do Hapkido" />
-                    </a> */}
+                    <Link 
+                        href="https://www.instagram.com/mestrexavier/" 
+                        target="_blank">
+                            <Image 
+                                src={instagramIcon} 
+                                className={styles.icons}
+                                alt="Centro de Treinamento e Estudo do Hapkido" 
+                                title="Centro de Treinamento e Estudo do Hapkido" 
+                                priority
+                            />
+                    </Link>
                 </div>
 
                 {/*  <div className={styles.associationSymbolBox}>

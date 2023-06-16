@@ -31,12 +31,15 @@
 
 .infoContentBox {
 	display: flex;
-	align-items: center;
-    justify-content: space-between;
+	align-items: start;
+    justify-content: left;
     flex-direction: row;
 	width: 100%;
 }
 
+.icons {
+	margin: 5px;
+}
 .associationBox{
 	margin-bottom:50px;
 	border:2px solid #333;
